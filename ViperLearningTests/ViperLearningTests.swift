@@ -108,11 +108,6 @@ final class ViperLearningTests: XCTestCase {
         presenter.view = nil
         presenter.interactor = nil
         presenter.router = nil
-
-        presenter = nil
-        mockView = nil
-        mockInteractor = nil
-        mockRouter = nil
     }
 
     // MARK: - Presenter Tests
